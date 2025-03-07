@@ -1,0 +1,13 @@
+p {
+    text-align: center;
+    color: green;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: silver;
+    font-size: 13px;
+}
+
+hr {
+    width: 20%;
+    text-align: center;
+}
