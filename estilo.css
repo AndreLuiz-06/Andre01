@@ -1,13 +1,9 @@
-p {
-    text-align: center;
-    color: green;
-    border: 1px solid red;
-    padding: 20px;
-    background-color: silver;
-    font-size: 13px;
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-hr {
-    width: 20%;
-    text-align: center;
+p {
+    color: green;
 }
+

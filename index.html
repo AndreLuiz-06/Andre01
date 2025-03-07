@@ -6,19 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>Exemplo 01</title>
+    <style>
+        div {
+            border: 1px solid green;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .item {
+            color: white;
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .container {
+            border: 1px solid grey;
+            box-shadow: 1rem 1rem 0.5rem 0.1rem;
+            display: flex;
+            /* height: 20rem; */
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
     <p>
         Isto é um parágrafo!
     </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Repudiandae, consequatur dicta ipsum molestias expedita eius laudantium cum eaque quaerat mollitia quas nemo excepturi
-        vitae perferendis rerum cumque aliquid reprehenderit labore!
-    </p>
-    
-    <hr>
-</body>
+    <div class="container">
+        <div class="item">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdublagem.fandom.com%2Fwiki%2FP%25C3%25A2nico_%25282022%2529&psig=AOvVaw07iobzvXMY8PSoN9ivaxOE&ust=1741396635369000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCICjz6Lm9osDFQAAAAAdAAAAABAE"
+                alt="Panico">
+        </div>
+        <div class="item">
+            <img src="https://www.google.com/imgres?q=imagens%20filmes&imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Frochelle_teaser2_poster_brazil_d27067e6.jpeg&imgrefurl=https%3A%2F%2Fwww.disney.com.br%2Ffilmes&docid=pT87iQdSuNggPM&tbnid=GrQ--fMEK1L9GM&vet=12ahUKEwj_jefJ5PaLAxV0AbkGHfz-OZIQM3oECBUQAA..i&w=770&h=1100&hcb=2&ved=2ahUKEwj_jefJ5PaLAxV0AbkGHfz-OZIQM3oECBUQAA"
+                alt="Capitão América">
+        </div>
+        <div class="item">
+            <img src="https://www.google.com/imgres?q=tropa%20de%20elite&imgurl=https%3A%2F%2Fingresso-a.akamaihd.net%2Fprd%2Fimg%2Fmovie%2Ftropa-de-elite%2Fc38b5dc9-353c-49ab-a43b-d7415e070c65.webp&imgrefurl=https%3A%2F%2Fwww.ingresso.com%2Ffilme%2Ftropa-de-elite&docid=LH6tv6Mn20_4qM&tbnid=LXEVek1OrnTaMM&vet=12ahUKEwiv9ur45vaLAxWOqpUCHaf9IJUQM3oECB0QAA..i&w=640&h=940&hcb=2&ved=2ahUKEwiv9ur45vaLAxWOqpUCHaf9IJUQM3oECB0QAA"
+                alt="Tropa de Elite">
+        </div>
+        <div class="item">
+            <img src="https://www.google.com/imgres?q=cidade%20de%20deus&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F711ao27c6TL._AC_UF350%2C350_QL80_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com.br%2FCidade-Deus-Paulo-Lins%2Fdp%2F8576659662&docid=NWXRdvHgQqhWWM&tbnid=bmWB8a_ONcF0mM&vet=12ahUKEwiToKWJ5_aLAxWaqJUCHZqsDP0QM3oECGYQAA..i&w=350&h=350&hcb=2&ved=2ahUKEwiToKWJ5_aLAxWaqJUCHZqsDP0QM3oECGYQAA"
+                alt="Cidade de Deus">
+        </div>
+        <div class="item">
+            <img src="https://www.google.com/imgres?q=mercen%C3%A1rios&imgurl=https%3A%2F%2Fbr.web.img3.acsta.net%2Fpictures%2F14%2F07%2F10%2F20%2F37%2F421670.jpg&imgrefurl=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-205445%2F&docid=wU1ihnQ-4WM3lM&tbnid=hgzzoBiK9ZmZvM&vet=12ahUKEwjdztSd5_aLAxUNpJUCHUlFLE8QM3oECBkQAA..i&w=613&h=896&hcb=2&ved=2ahUKEwjdztSd5_aLAxUNpJUCHUlFLE8QM3oECBkQAA"
+                alt="Mercenários">
+        </div>
+        <div class="item">
+            <img src="https://www.google.com/imgres?q=rango&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71H9drHaFIL._UF1000%2C1000_QL80_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com.br%2FRango-Various-Artists%2Fdp%2FB004I3U7EE&docid=s3YSEPGisV3gmM&tbnid=LN0dZgqSB3M9WM&vet=12ahUKEwjggofL5_aLAxV_q5UCHdvrKkMQM3oECGcQAA..i&w=1000&h=986&hcb=2&ved=2ahUKEwjggofL5_aLAxV_q5UCHdvrKkMQM3oECGcQAA"
+                alt="Rango">
+        </div>
+    </div>
+</body> 
 
 </html>
